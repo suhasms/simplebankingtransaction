@@ -11,7 +11,7 @@ import com.salesken.interview.model.entity.NetbankingDetails;
 import com.salesken.interview.service.TokenService;
 
 @Service
-final class TokenServiceImpl implements TokenService {
+public class TokenServiceImpl implements TokenService {
 
 	private Map<String, NetbankingDetails> tokenToUser = new ConcurrentHashMap<>();
 

@@ -11,7 +11,7 @@ import com.salesken.interview.service.TokenService;
 import com.salesken.interview.service.UserAuthenticationService;
 
 @Service
-final class TokenAuthenticationService implements UserAuthenticationService {
+public class TokenAuthenticationService implements UserAuthenticationService {
 
 	@Autowired
 	private NetbankingDetailsRepo netbankingDetailsRepository;

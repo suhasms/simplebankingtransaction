@@ -1,8 +1,6 @@
 package com.salesken.interview.service.impl;
 
 import java.util.Optional;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 import javax.transaction.Transactional;
 
